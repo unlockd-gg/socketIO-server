@@ -1,0 +1,30 @@
+{
+  "name": "uetopia",
+  "version": "0.2.7",
+  "description": "uetopia-sockets",
+  "engines": {
+    "node": "16.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "ejs": "^3.1.5",
+    "express": "^4.15.2",
+    "firebase-admin": "latest",
+    "socket.io": "4.5.4",
+    "request": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heroku/node-js-getting-started"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}
